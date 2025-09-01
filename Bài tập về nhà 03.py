@@ -101,9 +101,6 @@ a.pop(4)
 a.pop(0)
 print(a)
 
-# 13. Write a  Python program to generate a 3*4*6 3D array whose each element is
-# *.
-
 # 14. Write a  Python program to print the numbers of a specified list after removing
 # even numbers from it.
 numbers = [1, 2, 3, 5, 6, 7, 8, 9 , 10]
@@ -112,7 +109,6 @@ for num in numbers:
     if num % 2 != 0:
         result.append(num)
 print("Danh sách các số sau khi loại bỏ số chẵn là: ", result)
-# 15. Write a Python program to shuffle and print a specified list. {shuffle: xáo trộn ngẫu nhiên}
 
 # 16. Write a Python program to generate and print a list of the first and last 5
 # elements where the values are square numbers between 1 and 30 (both included).
@@ -142,9 +138,6 @@ def all_primes(lst):
 print(all_primes([0, 3, 4, 7, 9]))
 print(all_primes([3, 5, 7, 13]))
 print(all_primes([1, 5, 3]))
-# 18. Write a  Python program to generate all permutations of a list in  Python.
-
-# 19. Write a Python program to calculate the difference between the two lists.
 
 # 20. Write a Python program to access the index of a list.
 colors = ["red", "green", "blue"]
@@ -163,7 +156,6 @@ colors = ["red", "green", "blue", "green"]
 print(colors.index("green"))
 print(colors.index("blue"))
 
-# 23. Write a Python program to flatten a shallow list.
 
 # 24. Write a Python program to append a list to the second list.
 a = [1, 2, 3]
@@ -243,18 +235,6 @@ def all_sublists(lst):
 nums = [1, 2, 3]
 print(all_sublists(nums))
 
-# 34. Write a  Python program that uses the Sieve of Eratosthenes method to
-# compute prime numbers up to a specified number.
-# Note: In  mathematics, the sieve of Eratosthenes, (Ancient Greek: κόσκινον
-# Ἐρατοσθένους, kóskinon Eratosthénous) one of a number of prime number
-# sieves, is a simple, ancient algorithm for finding all prime numbers up to any
-# given limit.
-
-# 35. Write a Python program to create a list by concatenating a given list with a
-# range from 1 to n.
-# Sample list : ['p', 'q']
-# n =5
-# Sample Output : ['p1', 'q1', 'p2', 'q2', 'p3', 'q3', 'p4', 'q4', 'p5', 'q5']
 
 # 36. Write a  Python program to get a variable with an identification number or
 # string.
